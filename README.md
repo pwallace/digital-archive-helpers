@@ -4,6 +4,10 @@ A collection of small Python utilities for tasks related to building and maintai
 
 Each tool lives in its own subdirectory with a detailed README.
 
+## Disclaimer
+
+All code and documentation in this repository are provided "as is", without warranty of any kind. Use them at your own risk; the organization and contributors disclaim any liability for damages arising from their use.
+
 ---
 
 ## Internet Archive tools
