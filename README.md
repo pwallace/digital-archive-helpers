@@ -8,6 +8,9 @@ Each tool lives in its own subdirectory with a detailed README.
 
 ## Internet Archive tools
 
+### [ia-metadata-value-replacer](ia-metadata-value-replacer)
+Using a plaintext list of IA identifiers, reads a single replacement value from a text file and applies that same value across the batch to one chosen metadata field. This makes it especially useful for cases like replacing a shared rights statement, note, source statement, or other repeated field content across many items. The script is designed to avoid the main failure mode of shell-based metadata updates: quoting and escaping issues. Because the new metadata value is read directly from a file, quotes, apostrophes, punctuation, line breaks, and other special characters are preserved exactly as stored.
+
 ### [ia-missing-item-checker](ia-missing-item-checker/)
 Finds Internet Archive identifiers present in a local metadata corpus (one or more CSVs exported via IA's Advanced Search) that are absent from a source list. Useful for identifying items that exist in a local metadata export but have not yet been uploaded to, or confirmed in, an IA collection.
 
